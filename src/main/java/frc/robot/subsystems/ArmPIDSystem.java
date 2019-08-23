@@ -36,6 +36,7 @@ public class ArmPIDSystem extends PIDSubsystem {
     // Return your input value for the PID loop
     // e.g. a sensor, like a potentiometer:
     // yourPot.getAverageVoltage() / kYourMaxVoltage;
+    // this is where we get the input. msw
     return 0.0;
   }
 
